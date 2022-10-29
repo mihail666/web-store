@@ -3,6 +3,7 @@
 ## Project setup
 ```
 npm i axios router vuex
+npm i node-sass
 npm i json-server
 npm install
 ```
