@@ -1,0 +1,63 @@
+.w-footer-bar {
+  height: 450px;
+  background: rgb(37, 37, 37);
+  color: #fff;
+
+  &__container {
+    margin: 0 auto;
+    padding: 80px;
+    display: flex;
+  }
+
+  &__col {
+    flex-basis: 30%;
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  &__pic {
+    width: 10px;
+  }
+
+  &__logo {
+    font-size: 40px;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    margin-right: 20px;
+
+    &_img {
+      width: 14%;
+      margin-right: 20px;
+    }
+  }
+
+  &__socials {
+    &_icon {
+      width: 30px;
+      margin-top: 16px;
+      margin-right: 20px;
+      filter: invert(50%);
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    padding: 16px 0;
+    text-transform: uppercase;
+    border-bottom: solid 2px #fff;
+  }
+
+  &__list {
+    color: rgb(255, 255, 255);
+  }
+
+  &__p {
+    padding: 5px 0px;
+    font-size: 18px;
+  }
+}

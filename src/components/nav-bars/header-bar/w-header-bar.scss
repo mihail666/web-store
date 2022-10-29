@@ -1,0 +1,44 @@
+.w-header-bar {
+  margin: 0 auto;
+  display: block;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #7e7e7e;
+  }
+
+  &__container {
+    height: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__item {
+      display: flex;
+      height: 100%;
+      text-transform: uppercase;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin: 0 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+}
+
+.router-link-active {
+  transition-delay: 1s;
+  background: rgba(0, 0, 0);
+  color: #fff;
+}

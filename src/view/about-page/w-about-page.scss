@@ -1,0 +1,40 @@
+.w-about-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    position: relative;
+    font-size: 6em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgb(119, 119, 119);
+
+    &::before {
+      content: attr(data-text);
+      position: absolute;
+      color: #000;
+      width: 100px;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 5px solid #000;
+      animation: animate 6s linear infinite;
+      filter: drop-shadow(0 0 20px #000) drop-shadow(0 0 60px #000);
+    }
+  }
+
+  @keyframes animate {
+
+    0%,
+    10%,
+    100% {
+      width: 0;
+    }
+
+    70%,
+    80% {
+      width: 100%;
+    }
+  }
+}
