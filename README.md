@@ -2,11 +2,14 @@
 
 ## Project setup
 ```
+npm i axios router vuex
+npm i json-server
 npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
+json-server --watch db.json
 npm run serve
 ```
 
